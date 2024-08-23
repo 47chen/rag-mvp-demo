@@ -2,12 +2,19 @@
 
 ## How to use?
 `cd path/to/project`
+
 `python3 -m venv venv #for virtual env`
+
 `source venv/bin/activate`
+
 `pip3 install -r requirements.txt`
+
 `Pull your PDFs in the data folder`
+
 `python3 populate_database.py #generate db or use --reset to clear db`
+
 `python3 query_data.py "ASK YOU QUESTION HERE"`
+
 ![Screenshot 2024-08-22 at 17 47 46](https://github.com/user-attachments/assets/3ee3be8a-17fd-4b05-b8d7-1e537fb4d5e3)
 ![Screenshot 2024-08-22 at 18 00 57](https://github.com/user-attachments/assets/da3ec15e-d751-455e-9201-f677ae289dcf)
 ![Screenshot 2024-08-22 at 18 04 04](https://github.com/user-attachments/assets/83e21707-1928-4a11-affd-2a5faf695e2b)
